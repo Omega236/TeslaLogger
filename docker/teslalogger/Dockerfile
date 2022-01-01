@@ -1,4 +1,4 @@
-FROM mono:5.20.1.34
+FROM mono
 
 # timezone / date
 RUN echo "Europe/Berlin" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata
